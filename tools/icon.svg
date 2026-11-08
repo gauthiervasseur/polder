@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Polder icon: a tractor (equipment finance) driving over a field whose
+       furrows rise like a bar chart (growth). DLL blue tile. -->
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1aa3ff"/>
+      <stop offset="1" stop-color="#0088e6"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="512" height="512" fill="url(#tile)"/>
+    <!-- rising bars (the field / the chart) -->
+    <g fill="#ffffff" opacity=".26">
+      <rect x="40"  y="300" width="56" height="212" rx="10"/>
+      <rect x="116" y="250" width="56" height="262" rx="10"/>
+      <rect x="192" y="196" width="56" height="316" rx="10"/>
+      <rect x="268" y="138" width="56" height="374" rx="10"/>
+      <rect x="344" y="84"  width="56" height="428" rx="10"/>
+      <rect x="420" y="40"  width="56" height="472" rx="10"/>
+    </g>
+    <!-- ground -->
+    <rect x="0" y="430" width="512" height="82" fill="#0074c7"/>
+    <!-- tractor -->
+    <g fill="#ffffff">
+      <!-- exhaust -->
+      <rect x="148" y="214" width="16" height="84" rx="6"/>
+      <!-- hood -->
+      <path d="M102 312 Q102 292 122 290 L282 284 L282 372 L102 372 Z"/>
+      <!-- cab -->
+      <path d="M262 176 L382 176 L392 300 L392 372 L262 372 Z"/>
+      <!-- roof -->
+      <rect x="248" y="160" width="160" height="22" rx="9"/>
+    </g>
+    <!-- cab window -->
+    <path d="M284 198 L362 198 L370 282 L284 282 Z" fill="#0099ff"/>
+    <!-- rear wheel -->
+    <circle cx="350" cy="374" r="88" fill="#ffffff"/>
+    <circle cx="350" cy="374" r="88" fill="none" stroke="#0074c7" stroke-width="10" stroke-dasharray="14 12"/>
+    <circle cx="350" cy="374" r="42" fill="#0099ff"/>
+    <circle cx="350" cy="374" r="15" fill="#ffffff"/>
+    <!-- front wheel -->
+    <circle cx="150" cy="398" r="54" fill="#ffffff"/>
+    <circle cx="150" cy="398" r="54" fill="none" stroke="#0074c7" stroke-width="8" stroke-dasharray="11 10"/>
+    <circle cx="150" cy="398" r="24" fill="#0099ff"/>
+    <circle cx="150" cy="398" r="9" fill="#ffffff"/>
+  </g>
+</svg>

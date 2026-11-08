@@ -1,0 +1,19 @@
+/* Polder theme: ARCADE (retro) */
+:root {
+  --polder-theme-name: "Arcade";
+  --polder-font-family: "VT323", "Courier New", monospace;
+  --polder-title-font-family: "Press Start 2P", "VT323", monospace;
+  --polder-font-size: 19px;
+  --polder-title-font-size: 12px;
+  --polder-text-color: #f0efec;
+  --polder-muted-color: #b9b2dd;
+  --polder-background: #120b2e;
+  --polder-plot-background: #120b2e;
+  --polder-grid-color: #2f2660;
+  --polder-palette: #3987e5, #d95926, #199e70, #c98500, #d55181, #008300, #9085e9, #e66767;
+  --polder-sequential: #1d3a6e, #b7d3f6;
+  --polder-table-header-background: #1f1550;
+  --polder-table-header-color: #ffd400;
+  --polder-table-border-color: #33296b;
+  --polder-table-total-background: #1a1145;
+}

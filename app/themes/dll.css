@@ -1,0 +1,19 @@
+/* Polder theme: DLL (default, light) */
+:root {
+  --polder-theme-name: "DLL";
+  --polder-font-family: "Effra", "Figtree", Arial, sans-serif;
+  --polder-title-font-family: "Effra", "Figtree", Arial, sans-serif;
+  --polder-font-size: 13px;
+  --polder-title-font-size: 16px;
+  --polder-text-color: #333333;
+  --polder-muted-color: #666666;
+  --polder-background: #ffffff;
+  --polder-plot-background: #ffffff;
+  --polder-grid-color: #e5e5e5;
+  --polder-palette: #0099ff, #f28c28, #00875a, #4b08a1, #d6336c, #00a3a3, #9a151c, #8a9aa9;
+  --polder-sequential: #e0f2ff, #005c99;
+  --polder-table-header-background: #0099ff;
+  --polder-table-header-color: #ffffff;
+  --polder-table-border-color: #dedede;
+  --polder-table-total-background: #f1f8ff;
+}
