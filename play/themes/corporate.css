@@ -1,0 +1,18 @@
+/* Polder theme: CORPORATE (light) */
+:root {
+  --polder-theme-name: "Corporate";
+  --polder-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --polder-title-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --polder-font-size: 13px;
+  --polder-text-color: #0b0b0b;
+  --polder-muted-color: #52514e;
+  --polder-background: #fcfcfb;
+  --polder-plot-background: #fcfcfb;
+  --polder-grid-color: #e6e5e0;
+  --polder-palette: #2a78d6, #eb6834, #1baf7a, #eda100, #e87ba4, #008300, #6250d6, #e34948;
+  --polder-sequential: #cde2fb, #104281;
+  --polder-table-header-background: #f0efec;
+  --polder-table-header-color: #0b0b0b;
+  --polder-table-border-color: #e6e5e0;
+  --polder-table-total-background: #f5f4f1;
+}

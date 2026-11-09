@@ -1,0 +1,26 @@
+/* Polder theme example: web fonts + plain CSS properties.
+ * @import works when the computer is online; otherwise the fallbacks are used.
+ */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Serif:wght@600&display=swap");
+
+:root {
+  --polder-theme-name: "Editorial";
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;   /* plain property works too */
+  --polder-title-font-family: "IBM Plex Serif", Georgia, serif;
+  --polder-font-size: 14px;
+  --polder-title-font-size: 18px;
+  color: #1d1d1b;
+  background: #f7f4ee;
+  --polder-grid-color: #e4ded2;
+  --polder-color-1: #2a78d6;
+  --polder-color-2: #eb6834;
+  --polder-color-3: #1baf7a;
+  --polder-color-4: #eda100;
+  --polder-color-5: #e87ba4;
+  --polder-color-6: #008300;
+  --polder-color-7: #6250d6;
+  --polder-color-8: #e34948;
+  --polder-sequential: #fbe3d6, #9c3a12;
+  --polder-table-header-background: #1d1d1b;
+  --polder-table-header-color: #f7f4ee;
+}
